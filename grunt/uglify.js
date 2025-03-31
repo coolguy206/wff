@@ -27,14 +27,14 @@ module.exports = {
   // },
 
 
-  // landing: {
-  //   //dynamic files
-  //   expand: true,
-  //   cwd: 'landing-page/' + config.landing.name + '/js/browserify/',
-  //   src: ['*.js'],
-  //   dest: 'landing-page/' + config.landing.name + '/js/jsmin/',
-  //   ext: '.min.js',
-  // },
+  landing: {
+    //dynamic files
+    expand: true,
+    cwd: 'landing-page/' + config.landing.name + '/js/browserify/',
+    src: ['*.js'],
+    dest: 'landing-page/' + config.landing.name + '/js/jsmin/',
+    ext: '.min.js',
+  },
 
 
 };

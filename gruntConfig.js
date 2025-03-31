@@ -4,4 +4,9 @@ module.exports = {
     name: 'footer/grow-with-care',
   },
 
+  landing: {
+    name: 'subscribe',
+  },
+
+
 };

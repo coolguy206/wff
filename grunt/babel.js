@@ -4,7 +4,7 @@ var config = require("./../gruntConfig.js");
 module.exports = {
 
   options: {
-    sourceMap: true,
+    // sourceMap: true,
     presets: ['@babel/preset-env']
   },
 
@@ -26,13 +26,13 @@ module.exports = {
   //   }]
   // },
 
-  // landing: {
-  //   files: [{
-  //     expand: true,
-  //     cwd: 'landing-page/' + config.landing.name + '/js/',
-  //     src: '*.js',
-  //     dest: 'landing-page/' + config.landing.name + '/js/babel/'
-  //   }]
-  // },
+  landing: {
+    files: [{
+      expand: true,
+      cwd: 'landing-page/' + config.landing.name + '/js/',
+      src: '*.js',
+      dest: 'landing-page/' + config.landing.name + '/js/babel/'
+    }]
+  },
 
 };

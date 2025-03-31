@@ -32,16 +32,16 @@ module.exports = {
   // },
 
 
-  // landing: {
-  //   files: [
-  //     // landing pages toolkit
-  //     {
-  //       cwd: 'landing-page/' + config.landing.name + '/dev',
-  //       src: ['*.html'],
-  //       dest: 'landing-page/' + config.landing.name + '/includes/'
-  //     },
-  //   ],
-  // },
+  landing: {
+    files: [
+      // landing pages toolkit
+      {
+        cwd: 'landing-page/' + config.landing.name + '/dev',
+        src: ['**/*.html'],
+        dest: 'landing-page/' + config.landing.name + '/includes/'
+      },
+    ],
+  },
 
 
 };

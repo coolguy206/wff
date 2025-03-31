@@ -6,7 +6,7 @@ module.exports = {
 
     options: {
         // sourceMap: true,
-        compress: true,
+        // compress: true,
     },
 
     zone: {
@@ -27,13 +27,13 @@ module.exports = {
     // },
 
 
-    // landing: {
-    //     expand: true,
-    //     cwd: 'landing-page/' + config.landing.name + '/css/',
-    //     src: '*.less',
-    //     dest: 'landing-page/' + config.landing.name + '/css/',
-    //     ext: '.css',
-    // },
+    landing: {
+        expand: true,
+        cwd: 'landing-page/' + config.landing.name + '/css/',
+        src: '**/*.less',
+        dest: 'landing-page/' + config.landing.name + '/css/',
+        ext: '.css',
+    },
 
 
 };

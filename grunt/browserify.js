@@ -22,14 +22,14 @@ module.exports = {
   //   }]
   // },
 
-  // landing: {
-  //   files: [{
-  //     expand: true,
-  //     cwd: 'landing-page/' + config.landing.name + '/js/babel/',
-  //     src: '*.js',
-  //     dest: 'landing-page/' + config.landing.name + '/js/browserify/'
-  //   }]
-  // },
+  landing: {
+    files: [{
+      expand: true,
+      cwd: 'landing-page/' + config.landing.name + '/js/babel/',
+      src: '*.js',
+      dest: 'landing-page/' + config.landing.name + '/js/browserify/'
+    }]
+  },
 
 
 };
